@@ -6,9 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "author": "Jd André",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.9.0"
+    "axios": "^1.9.0",
+    "node-fetch": "^3.3.2"
   }
 }

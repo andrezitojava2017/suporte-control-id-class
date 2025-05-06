@@ -1,5 +1,5 @@
 
-const axios = require('axios');
+import axios from 'axios';
 
 // Função para fazer a requisição
 const fetchApi = async () => {
@@ -25,7 +25,7 @@ const fetchApi = async () => {
         const log = `Sessão: ${JSON.stringify(response.data)}`;
 
     } catch (error) {
-        console.error(errorLog);
+        console.error(error);
     }
 };
 
